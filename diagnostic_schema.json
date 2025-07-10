@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "properties": {
+    "strategie_ciblee": {
+      "type": "string",
+      "description": "Phrase HTML courte (1 à 2 lignes) résumant la stratégie à adopter"
+    },
+    "analyse_ia": {
+      "type": "string",
+      "description": "Phrase HTML courte expliquant un constat global personnalisé"
+    },
+    "rapport_complet": {
+      "type": "string",
+      "description": "Analyse complète (en HTML ou Markdown), structurée en 4 parties + conclusion"
+    }
+  },
+  "required": ["strategie_ciblee", "analyse_ia", "rapport_complet"]
+}
+ajout schema JSON pour Zapier
