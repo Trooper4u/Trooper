@@ -16,4 +16,3 @@
   },
   "required": ["strategie_ciblee", "analyse_ia", "rapport_complet"]
 }
-ajout schema JSON pour Zapier
